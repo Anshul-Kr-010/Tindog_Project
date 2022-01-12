@@ -1,0 +1,171 @@
+h1{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5;
+	color: white;
+}
+h2{
+	font-family: Montserrat;
+	font-size:3rem;
+	font-weight: bold;
+}
+h3{
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+
+#title{
+	background-color: #ff4c68;
+}
+.container-fluid{
+	padding: 3% 15% 7%;
+}
+.meet{
+	margin-top: 3%;
+}
+.nav-item{
+	padding: 1rem;
+}
+.btn{
+	margin-top: 3rem;
+	margin-right: 2rem;
+}
+.download-buttons{
+	margin-bottom: 7%;
+}
+.title-image{
+	width: 30%;
+	transform: rotate(25deg);
+	position: absolute;
+	z-index: 1;
+}
+.features{
+	text-align: center;
+	margin: 10%;
+}
+#features{
+	background-color: #fff;
+	padding: 1px 1px;
+	position: relative;
+	z-index: 2;
+}
+.feature-explanation{
+	font-family:Montserrat;
+	font-weight: bold;
+	font-size: 1rem;
+	color: #8f8181;
+}
+.icons{
+	color: #ef8172;
+}
+.icons:hover{
+	color: #ff4c68;
+}
+
+.plan{
+	font-family: Patua One;
+	color:#2C394B;
+}
+.plan-2{
+	font-family:Montserrat;
+	font-weight: bold;
+	color:grey;
+}
+.card-1, .card-2, .card-3{
+	padding-right:10%;
+	padding-bottom: 8%;
+}
+#testimonials{
+	text-align: center;
+	background-color: #ef8172;
+	padding: 10%;
+	color: white;
+}
+.doggy{
+	border-radius: 100%;
+	width: 15%;
+	margin-top: 5%;
+	margin-right: 2%;
+}
+.pebbles{
+	font-size: 1rem;
+	font-style: italic;
+}
+#press{
+	background-color: #ef8172;
+	padding: 1% 1% 5%;
+	text-align: center;
+}
+.medias{
+	text-align: center;
+	padding-bottom: 5%;
+	padding-right: 3%;
+	width:20%;
+}
+.carousel-control-next{
+	padding-left:12%;
+}
+.carousel-control-prev{
+	padding-right: 12%;
+}
+#pricing{
+	text-align: center;
+	padding: 10%;
+}
+.card{
+	text-align: center;
+	margin-bottom: 15%;
+}
+.pricing-card{
+	padding:5%;
+}
+.sign-up-btn{
+	text-align: center;
+}
+
+@media(max-width: 990px){
+
+	#title{
+		text-align: center;
+	}
+	.title-image{
+		position: static;
+		width: 70%;
+		transform: rotate(0);
+	}
+}
+
+#cta{
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 5%;
+}
+
+.quote{
+	color: #fff;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 4rem;
+	padding: 0% 4%;
+
+}
+
+.icons-l{
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+#footer{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.tweet, .face, .insta, .envy{
+	padding: 0% 1%;
+}
+.copyright{
+	color: grey;
+}
+
